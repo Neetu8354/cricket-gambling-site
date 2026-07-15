@@ -13,12 +13,12 @@ const About = () => {
       "@context": "https://schema.org",
       "@type": "AboutPage",
       name: "About Mahadev Book",
-      url: "https://mahadevbook14.live/about",
+      url: "https://www.mahadevbook14.live/about",
       description: "Learn about Mahadev Book — India's most trusted online cricket betting & live casino ID provider since 2019.",
       mainEntity: {
         "@type": "Organization",
         name: "Mahadev Book",
-        url: "https://mahadevbook14.live/",
+        url: "https://www.mahadevbook14.live/",
         foundingDate: "2019",
         areaServed: { "@type": "Country", name: "India" },
       },
@@ -27,8 +27,8 @@ const About = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevbook14.live/" },
-        { "@type": "ListItem", position: 2, name: "About Us", item: "https://mahadevbook14.live/about" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.mahadevbook14.live/" },
+        { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.mahadevbook14.live/about" },
       ],
     },
   ];
