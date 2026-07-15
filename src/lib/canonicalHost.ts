@@ -4,7 +4,7 @@
 // level of mahadevvbooks.com (e.g., Cloudflare page rule). This client-side
 // guard only handles cases where the old domain *resolves* to this app.
 
-const CANONICAL_HOST = "mahadevbook14.live";
+const CANONICAL_HOST = "www.mahadevbook14.live";
 const CANONICAL_ORIGIN = `https://${CANONICAL_HOST}`;
 
 // Hosts that should NOT be redirected (local dev + Lovable preview/staging).
@@ -21,7 +21,7 @@ const LEGACY_HOSTS = [
   "www.mahadevvbooks.com",
   "mahadevbetz.live",
   "www.mahadevbetz.live",
-  `www.${CANONICAL_HOST}`,
+  "mahadevbook14.live",
 ];
 
 export function enforceCanonicalHost() {
