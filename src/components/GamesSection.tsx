@@ -27,7 +27,7 @@ const Card = ({ img, title, desc, alt }: { img: string; title: string; desc: str
   <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
     className="group relative rounded-2xl overflow-hidden border border-gold/20 bg-card hover:border-gold/60 transition-all hover:-translate-y-1 shadow-card hover:shadow-gold">
     <div className="aspect-square overflow-hidden">
-      <img src={img} alt={alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" width={800} height={800} />
+      <img src={img} alt={alt} title={title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" width={800} height={800} />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
     </div>
     <div className="absolute bottom-0 left-0 right-0 p-4 md:p-5">

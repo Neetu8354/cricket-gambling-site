@@ -99,7 +99,7 @@ const BlogPost = () => {
           </header>
 
           <div className="aspect-video w-full rounded-2xl overflow-hidden border border-gold/20 mb-8 bg-muted">
-            <img src={post.cover} alt={altFor(post.cover)} className="w-full h-full object-cover" loading="eager" fetchPriority="high" width={1280} height={720} />
+            <img src={post.cover} alt={altFor(post.cover)} title={post.title} className="w-full h-full object-cover" loading="eager" fetchPriority="high" width={1280} height={720} />
           </div>
 
           <div className="prose-invert max-w-none">

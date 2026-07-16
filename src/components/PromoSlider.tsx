@@ -50,7 +50,7 @@ export const PromoSlider = () => {
             key={idx}
             className={`absolute inset-0 transition-opacity duration-700 ${idx === i ? "opacity-100" : "opacity-0 pointer-events-none"}`}
           >
-            <img src={s.img} alt={s.alt} className="w-full h-full object-cover" loading="lazy" width={1920} height={720} />
+            <img src={s.img} alt={s.alt} title={s.title} className="w-full h-full object-cover" loading="lazy" width={1920} height={720} />
             <div className="absolute inset-0 bg-gradient-to-t sm:bg-gradient-to-r from-background via-background/80 sm:via-background/70 to-transparent" />
             <div className="absolute inset-0 flex items-end sm:items-center">
               <div className="container py-6 sm:py-0">

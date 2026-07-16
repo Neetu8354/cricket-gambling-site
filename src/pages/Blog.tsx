@@ -76,6 +76,7 @@ const Blog = () => {
                   <img
                     src={post.cover}
                     alt={altFor(post.cover)}
+                    title={post.title}
                     loading="lazy"
                     width={800}
                     height={450}

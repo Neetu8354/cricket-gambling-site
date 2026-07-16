@@ -23,6 +23,7 @@ export const Header = () => {
           <img
             src={logo}
             alt="Mahadev Book — India's #1 online cricket betting ID provider"
+            title="Mahadev Book Logo - India's #1 Online Cricket Betting ID Provider"
             className="h-9 sm:h-11 md:h-12 lg:h-14 w-auto"
             width={224}
             height={56}

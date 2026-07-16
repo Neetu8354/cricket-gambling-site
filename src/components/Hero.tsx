@@ -10,6 +10,7 @@ export const Hero = () => {
         <img
           src={heroImg}
           alt="Play IPL 2026 online cricket betting on Mahadev Book — India's #1 betting ID"
+          title="IPL 2026 Cricket Betting - Mahadev Book India"
           className="w-full h-full object-cover opacity-30 sm:opacity-40"
           width={1920}
           height={1080}
