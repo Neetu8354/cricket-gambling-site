@@ -127,11 +127,11 @@ const BlogPost = () => {
             <h3 className="text-xl md:text-2xl font-display font-bold text-gradient-gold mb-2">
               Ready to Get Your Mahadev Book ID?
             </h3>
-            <p className="text-muted-foreground mb-5">Instant WhatsApp signup • UPI deposit ₹100 min • 24x7 support</p>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
+            <p className="text-muted-foreground mb-5">Instant signup • UPI deposit ₹100 min • 24x7 support</p>
+            <Link to="/contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-gold text-primary-foreground font-bold shadow-gold hover:shadow-gold-lg hover:scale-105 transition-all">
-              <MessageCircle className="w-5 h-5" /> Chat on WhatsApp
-            </a>
+              <MessageCircle className="w-5 h-5" /> Contact Us
+            </Link>
           </aside>
 
           {related.length > 0 && (

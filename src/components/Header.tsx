@@ -45,22 +45,18 @@ export const Header = () => {
 
         {/* Right cluster — auth buttons + menu icon */}
         <div className="flex items-center gap-1.5 sm:gap-2 md:gap-3 ml-auto">
-          <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contact"
             className="px-3 py-1.5 sm:px-4 sm:py-2 md:px-5 rounded-full text-xs sm:text-sm font-semibold border border-gold/50 text-gold hover:bg-gold hover:text-primary-foreground transition-colors whitespace-nowrap"
           >
             Login
-          </a>
-          <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          </Link>
+          <Link
+            to="/contact"
             className="px-3 py-1.5 sm:px-4 sm:py-2 md:px-5 rounded-full text-xs sm:text-sm font-bold bg-gradient-gold text-primary-foreground shadow-gold hover:shadow-gold-lg transition-all whitespace-nowrap"
           >
             Sign Up
-          </a>
+          </Link>
 
           <button
             className="lg:hidden text-gold p-1.5 sm:p-2 ml-0.5 sm:ml-1"
@@ -84,14 +80,14 @@ export const Header = () => {
             );
           })}
           <div className="flex gap-2 pt-2">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
+            <Link to="/contact"
               className="flex-1 text-center px-5 py-2.5 rounded-full font-semibold border border-gold/50 text-gold">
               Login
-            </a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
+            </Link>
+            <Link to="/contact"
               className="flex-1 text-center px-5 py-2.5 rounded-full font-bold bg-gradient-gold text-primary-foreground">
               Sign Up
-            </a>
+            </Link>
           </div>
         </div>
       )}

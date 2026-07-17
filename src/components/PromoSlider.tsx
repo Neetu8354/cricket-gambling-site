@@ -4,6 +4,7 @@ import promoCasino from "@/assets/promo-casino.jpg";
 import promoPayout from "@/assets/promo-payout.jpg";
 import { WHATSAPP_LINK } from "@/lib/links";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const SLIDES = [
   {
@@ -58,10 +59,10 @@ export const PromoSlider = () => {
                   <div className="text-gold text-[10px] sm:text-xs md:text-sm font-semibold tracking-widest uppercase">{s.eyebrow}</div>
                   <h3 className="text-2xl sm:text-3xl md:text-5xl font-display font-bold text-gradient-gold">{s.title}</h3>
                   <p className="text-xs sm:text-sm md:text-base text-foreground/80">{s.subtitle}</p>
-                  <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
+                  <Link to="/contact"
                     className="inline-flex px-5 sm:px-6 py-2.5 sm:py-3 rounded-full bg-gradient-gold text-primary-foreground font-bold text-sm sm:text-base shadow-gold hover:scale-105 transition-transform">
                     {s.cta}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

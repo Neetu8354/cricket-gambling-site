@@ -1,5 +1,6 @@
 import { WHATSAPP_LINK } from "@/lib/links";
 import { MessageCircle, UserCheck, Wallet, Trophy } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const STEPS = [
   { icon: MessageCircle, title: "Message on WhatsApp", desc: "Click the WhatsApp button to chat with our support team instantly." },
@@ -36,10 +37,10 @@ export const HowItWorks = () => (
       </div>
 
       <div className="text-center mt-12">
-        <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
+        <Link to="/contact"
           className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-gold text-primary-foreground font-bold shadow-gold hover:scale-105 transition-transform">
-          <MessageCircle className="w-5 h-5" /> Get My ID on WhatsApp
-        </a>
+          <MessageCircle className="w-5 h-5" /> Get My ID Now
+        </Link>
       </div>
     </div>
   </section>

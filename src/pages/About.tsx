@@ -97,10 +97,10 @@ const About = () => {
 
         <aside className="mt-12 p-8 rounded-2xl bg-gradient-gold-soft border border-gold/30 text-center">
           <h3 className="text-2xl font-display font-bold text-gradient-gold mb-3">Get your Mahadev Book ID now</h3>
-          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
+          <Link to="/contact"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-gold text-primary-foreground font-bold shadow-gold hover:shadow-gold-lg hover:scale-105 transition-all">
-            Chat on WhatsApp
-          </a>
+            Contact Us
+          </Link>
         </aside>
       </main>
       <Footer />

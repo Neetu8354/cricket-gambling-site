@@ -34,10 +34,10 @@ export const Footer = () => (
       <div>
         <h4 className="font-display font-bold text-gold mb-4">Get Your ID</h4>
         <ul className="space-y-2 text-sm text-muted-foreground">
-          <li><a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-gold">WhatsApp Support</a></li>
-          <li><a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-gold">Login</a></li>
-          <li><a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-gold">Sign Up</a></li>
-          <li><a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-gold">Deposit / Withdraw</a></li>
+          <li><Link to="/contact" className="hover:text-gold">Contact Support</Link></li>
+          <li><Link to="/games/cricket" className="hover:text-gold">Cricket Betting</Link></li>
+          <li><Link to="/games/teen-patti" className="hover:text-gold">Teen Patti</Link></li>
+          <li><Link to="/games/andar-bahar" className="hover:text-gold">Andar Bahar</Link></li>
         </ul>
       </div>
 
